@@ -13,7 +13,7 @@ add-repositories:
 # 	sudo tlp start
 
 link-config:
-	stow --restow `ls -d */`
+	stow -t $HOME -R `ls -d */`
 
 show-notes:
 	cat ./post-install.txt
