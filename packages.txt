@@ -5,6 +5,8 @@ neovim
 network-manager-applet
 networkmanager
 openssh
+powerline
+powerline-fonts
 python-gobject
 python-neovim
 python-xdg

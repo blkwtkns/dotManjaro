@@ -13,7 +13,8 @@ add-repositories:
 # 	sudo tlp start
 
 link-config:
-	stow -t $HOME -R `ls -d */`
+	rm -rf $$HOME/.i3
+	stow -t $$HOME -R `ls -d */`
 
 show-notes:
 	cat ./post-install.txt
