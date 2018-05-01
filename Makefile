@@ -1,11 +1,12 @@
-default: install-packages add-repositories link-config show-notes
-
-install-packages:
-	sudo pacman -Sy yaourt
-	yaourt -S --needed --noconfirm `cat packages.txt`
+default: add-repositories install-packages link-config show-notes
 
 add-repositories:
 	cat repositories.txt | sudo tee -a /etc/pacman.conf
+
+install-packages:
+	sudo pacman -Sy yaourt
+	yaourt -Syy
+	yaourt -S --needed --noconfirm `cat packages.txt`
 
 # enable-services:
 # 	sudo systemctl enable lightdm NetworkManager tlp tlp-sleep

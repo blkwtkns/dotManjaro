@@ -1,6 +1,7 @@
 chromium
 cowsay
 feh
+fortune
 neovim
 network-manager-applet
 networkmanager
@@ -11,6 +12,7 @@ python-gobject
 python-neovim
 python-xdg
 python2-neovim
+rtv
 ruby
 ruby-coderay
 rustup
