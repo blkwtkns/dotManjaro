@@ -1,8 +1,12 @@
 chromium
 cowsay
 docker
+docker-compose
 feh
 fortune
+go
+go-tools
+mdp
 neovim
 network-manager-applet
 networkmanager
@@ -19,6 +23,7 @@ ruby-coderay
 rustup
 ripgrep
 stow
+tldr-go-client-git
 tmux
 unrar
 xclip
