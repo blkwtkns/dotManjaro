@@ -1,3 +1,5 @@
+bluez
+bluez-utils
 chromium
 cowsay
 docker
