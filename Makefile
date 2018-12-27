@@ -1,8 +1,8 @@
 default: install-packages add-repositories link-config show-notes
 
 install-packages:
-	sudo pacman -Sy yaourt
-	yaourt -S --needed --noconfirm `cat packages.txt`
+	sudo pacman -Sy yay
+	yay -S --needed --noconfirm `cat packages.txt`
 
 add-repositories:
 	cat repositories.txt | sudo tee -a /etc/pacman.conf
